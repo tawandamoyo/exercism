@@ -5,7 +5,4 @@ def square(number):
 
 
 def total():
-    total = 0
-    for number in range(64):
-        total = total + (2 ** number)
-    return total
+    return 2 ** 64 - 1
